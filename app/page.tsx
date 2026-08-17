@@ -31,8 +31,10 @@ export default function Home() {
       </div>
 
      {/* 添加宠物入口占位 */}
-<div className="text-center text-slate-400 text-sm mt-8">
-<Link href="/add-pet" className="text-emerald-600 underline">添加更多爬宠档案 →</Link>
+<div className="text-center mt-8">
+  <Link href="/add-pet" className="inline-block bg-emerald-600 text-white py-2 px-4 rounded-lg">
+    添加更多爬宠档案 →
+  </Link>
 </div>
     </main>
   );
