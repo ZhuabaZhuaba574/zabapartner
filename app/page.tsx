@@ -1,5 +1,5 @@
 'use client';
-
+import Link from 'next/link' // 
 export default function Home() {
   return (
     <main className="min-h-screen bg-slate-50 p-4 max-w-md mx-auto">
@@ -32,8 +32,8 @@ export default function Home() {
 
      {/* 添加宠物入口占位 */}
 <div className="text-center text-slate-400 text-sm mt-8">
-<a href="/add-pet" className="text-emerald-600 underline">添加更多爬宠档案 →</a>
-      </div>
+<Link href="/add-pet" className="text-emerald-600 underline">添加更多爬宠档案 →</Link>
+</div>
     </main>
   );
 }
