@@ -30,9 +30,9 @@ export default function Home() {
         </button>
       </div>
 
-      {/* 添加宠物入口占位 */}
-      <div className="text-center text-slate-400 text-sm mt-8">
-        添加更多爬宠档案 →
+     {/* 添加宠物入口占位 */}
+<div className="text-center text-slate-400 text-sm mt-8">
+<a href="/add-pet" className="text-emerald-600 underline">添加更多爬宠档案 →</a>
       </div>
     </main>
   );
